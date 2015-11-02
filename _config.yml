@@ -1,0 +1,17 @@
+# Site settings
+title: Axel Rock
+email: axel@rock.bzh
+description: > # this means to ignore newlines until "baseurl:"
+  Coucou toi ! N'hésite pas à me contacter si tu souhaites réagir. Comme il n'y a pas de commentaires, j'ajouterai les remarques pertinentes directement dans les articles. 
+  <br/>
+  <br/>
+  English speaker? Drop me a line and I'll try to provide translation of the upcoming articles.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://axelrock.fr" # the base hostname & protocol for your site
+twitter_username: nineties_panda
+instagram_username: axel.rock
+permalink: /:title/
+destination: ../axelrock.fr
+
+# Build settings
+markdown: kramdown
