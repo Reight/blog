@@ -5,15 +5,23 @@ body {
     background-repeat: no-repeat;
 }
 
+.next-link, .previous-link {
+	font-family: $title-font-family;
+}
+
 .next-link {
 	margin-bottom: 1em;
 }
+
 
 /**
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
+//     border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px dashed $brand-color;
+//     background-color: lighten($grey-color-light, 20%);
+    font-family: $title-font-family;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -104,7 +112,8 @@ body {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+//     border-top: 1px solid $grey-color-light;
+    border-top: 1px dashed $brand-color;
     padding: $spacing-unit 0;
 }
 
@@ -117,6 +126,8 @@ body {
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    font-family: $title-font-family;
+    font-weight: 400;
 }
 
 .footer-col-wrapper {
@@ -133,19 +144,21 @@ body {
 }
 
 .footer-col-1 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
 }
+/*
 
 .footer-col-3 {
     width: -webkit-calc(60% - (#{$spacing-unit} / 2));
     width:         calc(60% - (#{$spacing-unit} / 2));
 }
+*/
 
 @include media-query($on-laptop) {
     .footer-col-1,
@@ -187,11 +200,21 @@ body {
 
     > li {
         margin-bottom: $spacing-unit;
+        
+        a {
+	        color: $text-color;
+	        
+	        &:hover {
+		        color: $brand-color;
+	        }
+        }
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
+    font-family: $title-font-family;
+    font-weight: 400;
     color: $grey-color;
 }
 
@@ -206,6 +229,7 @@ body {
 /**
  * Posts
  */
+
 .post-header {
     margin-bottom: $spacing-unit;
 }

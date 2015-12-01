@@ -6,24 +6,33 @@
 
 
 // Our variables
-$base-font-family: "Avenir", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+// $base-font-family: "Avenir", Helvetica, Arial, sans-serif;
+// $title-font-family: $base-font-family;
+$base-font-family: "Iowan Old Style", Times, serif;
+// $base-font-family: "Georgia", "Times New Roman", Times, serif;
+$title-font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+// $title-font-family: "Didot", Helvetica, Arial, sans-serif;
+$base-font-size:   15.75px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.66;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$grey-color:       #828282;
+// $grey-color:       #d2d2d2;
+$grey-color-light: lighten($grey-color, 20%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$text-color:        $grey-color-dark;
+// $text-color:       #fff;
 $background-color: #fdfdfd;
+$background-color: #f8f9fa;
+// $background-color: #212121;
 $brand-color:      lighten(#046380, 10%);
 $highlight-color:  #EA4C89;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
 // Width of the content area
-$content-width:    800px;
+$content-width:    630px;
 
 $on-palm:          600px;
 $on-laptop:        800px;

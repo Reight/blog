@@ -8,12 +8,6 @@
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
 		  <li class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">flux RSS</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-
           {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -45,7 +39,7 @@
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-3">
+      <div class="footer-col  footer-col-2">
         <p class="text">{{ site.description }}</p>
       </div>
     </div>
