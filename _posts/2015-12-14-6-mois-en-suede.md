@@ -32,7 +32,7 @@ Si j’adore autant la boite, c’est surtout pour l’ambiance. Je reste plus s
 
 ## Nouveau logement
 
-Disons-le tout de suite : LE point noir de la vie à Suède, ou du moins à Stockholm, c’est le logement. C’est cher, il y a très peu d’offres, et la majorité des sites avec des offres impliquent un abonnement, parfois conséquent. (70 euros pour 45 jours sur le plus populaire)
+Disons-le tout de suite : LE point noir de la vie en Suède, ou du moins à Stockholm, c’est le logement. C’est cher, il y a très peu d’offres, et la majorité des sites avec des offres impliquent un abonnement, parfois conséquent. (70 euros pour 45 jours sur le plus populaire)
 
 Mais… parce qu’il y a un mais
 
@@ -40,7 +40,7 @@ Après plusieurs semaines, et quelques dizaines de tentatives, j’ai encore une
 
 Je partage un appartement plutôt cool, avec un Brésilien tout aussi cool, sur une île de Stockholm que je ne connaissais même pas. Un petit bout de paradis très proche du centre-ville, et cerise sur le gâteau, sur une ligne de bus qui mène directement à la porte de mon bureau…
 
-Voilà à quoi à quoi ressemble la vue depuis le quartier :
+Voilà à quoi ressemble la vue depuis le quartier :
 
 ![home sweet home](../images/2015-12-14-6-mois-en-suede/home-1.jpg){: srcset="../images/2015-12-14-6-mois-en-suede/home-1@2x.jpg 2x" data-action='zoom'}
 
